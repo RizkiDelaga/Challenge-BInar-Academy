@@ -29,7 +29,6 @@ body {
     align-items: center;
 }
 
-
 .header-section {
     background-color: #F1F3FF;
 }
@@ -47,25 +46,21 @@ body {
     height: 36px;
 }
 
-.list-navbar {
-    margin-right: 32px;
+.navigation-section .navbar-nav .nav-item a:hover {
+    color: blue !important;
 }
 
 .nav-position {
     position: relative;
     top: 24px;
-    right: 25px;
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
-    color: #000000;
+    color: #000000 !important;
     border-color: #000000;
 }
 
 .btn-register {
-    position: relative;
-    top: 24px;
-    right: 25px;
     height: 36px;
     font-family: Helvetica;
     font-style: normal;
@@ -448,7 +443,6 @@ body {
 
 /* ********** FOOTER SECTION BEGIN ********** */
 
-
 .footer-section {
     margin-top: 100px;
     margin-bottom: 76px;
@@ -504,7 +498,6 @@ body {
 .footer-section .copyright img {
     width: 120px;
 }
-
 
 /* ********** FOOTER SECTION END ********** */
 
